@@ -100,9 +100,7 @@ class ToDo {
 
   // Example static method to generate an initial list of ToDo items
   static List<ToDo> todoList() {
-    return [
-      ToDo(id: '01', todoText: 'Add Your First Item!'),
-    ];
+    return [];
   }
 }
 
