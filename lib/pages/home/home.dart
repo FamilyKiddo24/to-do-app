@@ -141,7 +141,7 @@ class _HomeState extends State<HomeS> {
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
     // Retrieve the JSON string
-    String? jsonString = prefs.getString('toDoList');
+    String? jsonString = prefs.getString('_foundToDo');
 
     if (jsonString != null) {
       // Decode the JSON string into a list of maps
